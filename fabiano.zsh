@@ -1,6 +1,6 @@
 path+=("$HOME/bin" "$HOME/.cargo/bin" "$HOME/.npm-g/bin")
 
-setxkbmap -option ctrl:nocaps
+#setxkbmap -option ctrl:nocaps
 
 bindkey "${key[Up]}" history-beginning-search-backward
 bindkey "${key[Down]}" history-beginning-search-forward
